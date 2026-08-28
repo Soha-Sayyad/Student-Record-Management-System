@@ -87,7 +87,7 @@ public class student_record {
 
                             students.remove(i);
 
-                            System.out.println("Student deleted successfully.");
+                            System.out.println("Student deleted successfully!");
 
                             found = true;
 
@@ -100,7 +100,7 @@ public class student_record {
                     break;
 
                 case 4:
-                    System.out.println("Exiting program.");
+                    System.out.println("Exiting the program.");
                     sc.close();
                     return;
                 default:
